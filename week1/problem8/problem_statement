@@ -1,0 +1,1 @@
+Write a shell script to delete directories for given folder which are older than the given date  e.g. take two user inputs: 1 - parent directory path from which you have to delete older files/subfolders  2 - date to choose deletion status e.g if user provide date as 2018-07-01 then delete files/subfolders older to 2018-07-01

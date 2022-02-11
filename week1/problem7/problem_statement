@@ -1,0 +1,1 @@
+Write a bash script to find whether a directory exists. If yes, update the timestamps of files inside the directory. If not, create the directory and file names test with content "Hello World".

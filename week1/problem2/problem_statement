@@ -1,0 +1,1 @@
+Write a shell script which accepts file names and displays the type of each file. If no file names are provided, print an error message.
