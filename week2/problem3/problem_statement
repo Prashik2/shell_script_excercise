@@ -1,0 +1,3 @@
+ Write a shell script which     
+        a. Checks if java is installed on system, installs java if not present     
+        b. Checks if JAVA_HOME env is set, if not then set JAVA_HOME and add java binaries to PATH

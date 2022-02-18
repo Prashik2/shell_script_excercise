@@ -1,0 +1,1 @@
+Write a shell script which will automate ssh login to vm with user input for password or private key  (You can also extend script for starting vm before taking ssh)

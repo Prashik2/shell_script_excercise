@@ -1,4 +1,5 @@
 directory=$1
+date=$2
 if [ -d $directory ]
 then
 	echo "Directory exists"
@@ -6,9 +7,12 @@ then
 	for file in $directory/*;
 	do
 		echo "File Name $file"
-		file_date=date -r $file
+		#file_date=date -r $file
+		if [ $file -ot $date ]
+		then
+			echo "Date older than $date"
+		fi
 		echo $file_date
-		touch -d "2012-10-19 12:12:12.000000000 +0530" $file
 	done
 else
 	echo "Directory does not exist"	

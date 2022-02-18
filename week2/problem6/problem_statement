@@ -1,0 +1,1 @@
+Write a shell script which will extract a compressed file depending on its extension. e.g : If xyz.tar.gz is given as input then it should be extracted using 'tar -xvzf'

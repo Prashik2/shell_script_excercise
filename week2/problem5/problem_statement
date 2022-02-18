@@ -1,0 +1,3 @@
+Write a shell script to take backup of the directory using tar 
+Source and destination should be taken from user input 
+Compression method should be taken from user input

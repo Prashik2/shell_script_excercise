@@ -1,0 +1,3 @@
+    10. Write a shell script which will print IPv4 address and MAC address of system in following pattern: (Note: Try to use sed or awk )
+         IP of system is : 
+         MAC Address of system is: 
